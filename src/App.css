@@ -7,12 +7,45 @@ body {
 .App {
   padding: 20px;
 }
+.title {
+  text-transform: capitalize;
+}
 .color__primary {
   color: #f54748;
+}
+.color__transparent {
+  color: transparent;
 }
 .color__white {
   color: #fff;
 }
+.color__black {
+  color: #000;
+}
 .bg__primary {
   background-color: #f54748;
+}
+.bg__white {
+  background-color: #fff;
+}
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.align__center {
+  align-items: center;
+}
+.justify__between {
+  justify-content: space-between;
+}
+.row {
+  flex-direction: row;
+}
+.secondary {
+  color: #fcc45b;
+}
+.hidden {
+  color: "transparent" !important;
 }

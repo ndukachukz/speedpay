@@ -1,4 +1,6 @@
 import "./style.css";
+import rider from "../../assets/images/rider.webp";
+
 const Hero = () => {
   return (
     <div className={"hero"}>
@@ -11,7 +13,7 @@ const Hero = () => {
           Order Now
         </button>
       </div>
-      <div className={"hero__photo"}></div>
+      <img src={rider} alt="" srcSet="" className={"hero__photo"} />
     </div>
   );
 };

@@ -1,0 +1,16 @@
+.bottomTabs {
+  justify-content: space-between;
+  float: bottom;
+  margin: 45px 0;
+  align-items: center;
+}
+
+.bottomTab__dot {
+}
+
+.bottomTab__search {
+  padding: 20px;
+  top: -35px;
+  position: relative;
+  border-radius: 50%;
+}

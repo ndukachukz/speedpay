@@ -1,7 +1,11 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
-import { Header, Hero, Categories } from "./components/index";
+import {
+  Header,
+  Hero,
+  Categories,
+  Popular,
+  BottomTabs,
+} from "./components/index";
 
 function App() {
   return (
@@ -14,6 +18,10 @@ function App() {
 
       {/* CATEGORY */}
       <Categories />
+
+      <Popular />
+
+      <BottomTabs />
     </div>
   );
 }

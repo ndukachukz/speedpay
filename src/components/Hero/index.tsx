@@ -1,6 +1,5 @@
 import "./style.css";
 import rider from "../../assets/images/rider.webp";
-
 const Hero = () => {
   return (
     <div className={"hero"}>
